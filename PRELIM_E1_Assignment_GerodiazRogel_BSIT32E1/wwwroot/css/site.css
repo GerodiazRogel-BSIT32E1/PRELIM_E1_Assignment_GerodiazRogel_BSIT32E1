@@ -19,4 +19,46 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #1E1E1E;
+}
+header {
+  background-color: #1E1E1E;
+  color: white;
+  padding: 8px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c4f338 !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(90deg);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  .nav-item {
+    margin-left: 10%;
+  }
+  .navbar-Nav .nav-item:hover {
+    background-color: yellow !important;
+    cursor: pointer;
+  }
+  .logo_image {
+    width: 50%;
+  }
+  footer .container{
+    font-size: .7rem;
+  }
 }
